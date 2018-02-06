@@ -44,6 +44,7 @@ sdk.dir=D\:\\android\\sdk
 ### 参考资料
 * [AndroidStudio最详细JNI教程](https://www.jianshu.com/p/81a97a43c176)
 
+* [Android NDK Gradle3.0 以上最新生成.so之旅](http://blog.csdn.net/xiaozhu0922/article/details/78835144)
 
 
 
