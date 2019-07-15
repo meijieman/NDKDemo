@@ -27,6 +27,12 @@ defaultConfig {
 7. 编译，生成 so 文件 `app\build\intermediates\ndk\debug\lib`
 8. 在需要调用处调用 JNIUtil 中定义的方法
 
+### 配置 so 输出目录
+```
+#设置生成的so动态库最后输出的路径
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/../jniLibs/${ANDROID_ABI})
+```
+
 ### 注意
 1. local.properties 需要配置
 ```
